@@ -12,30 +12,35 @@ class ResultViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     
-    var name:String? = ""
-
+    var name:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        func handle(_ sender: Any){
-        }
-        let result = "name"
-        
-            label.text="こんにちは\(result)さん"
-        }
+        label.text="こんにちは\(name)さん"
     }
-//    
+    
+    // Do any additional setup after loading the view.
+    
+    
+    
+    @IBAction func handle(_ sender: Any) {
+        
+        
+    }
+    
+    
+    //
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+}
 
 
 

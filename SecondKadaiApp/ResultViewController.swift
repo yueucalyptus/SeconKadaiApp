@@ -22,7 +22,7 @@ class ResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        
         label.text="こんにちは\(name)さん"
     }
     
@@ -30,10 +30,7 @@ class ResultViewController: UIViewController {
     
     
     
-    @IBAction func handle(_ sender: Any) {
-        
-        
-    }
+    
     
     
     //

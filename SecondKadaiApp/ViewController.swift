@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     
     var textFieldString = ""
     
+    
+    
     @IBOutlet weak var mytextField: UITextField!
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewConstroller:ResultViewController = segue.destination as! ResultViewController
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
         textFieldString = mytextField.text!
         
         
-    
+        
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }

@@ -36,6 +36,9 @@
                                 <rect key="frame" x="159" y="368" width="96" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mytextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="3Nc-2V-HgC"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -56,7 +59,7 @@
                     <navigationItem key="navigationItem" id="TnZ-Om-BYD"/>
                     <connections>
                         <outlet property="button" destination="g8l-Ye-67c" id="Vlq-PB-S53"/>
-                        <outlet property="mytextField" destination="bvj-qy-JUL" id="yzn-aw-Kae"/>
+                        <outlet property="mytextField" destination="bvj-qy-JUL" id="Vya-ax-NdT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,7 +86,7 @@
                                 <rect key="frame" x="191.5" y="201" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="4Yg-nu-fTz"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="mXm-wY-5q2"/>
                                 </connections>
                             </button>
                         </subviews>

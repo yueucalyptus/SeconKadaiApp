@@ -9,13 +9,20 @@ import UIKit
 
 
 class ResultViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
+    
     
     
     var name:String = ""
     
+    
+    @IBOutlet weak var label: UILabel!
+    
+    let mytextField = UITextField()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         label.text="こんにちは\(name)さん"
     }
     

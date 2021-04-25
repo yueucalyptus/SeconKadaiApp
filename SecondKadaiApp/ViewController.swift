@@ -9,17 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    
     @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func handle(_ sender: Any) {
-    }
+    var textFieldString = ""
+    
+    @IBOutlet weak var mytextField: UITextField!
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewConstroller:ResultViewController = segue.destination as! ResultViewController
-        resultViewConstroller.name = "名前"
+        resultViewConstroller.name = mytextField.text!
+        textFieldString = mytextField.text!
+        
+        
+    
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue){
     }

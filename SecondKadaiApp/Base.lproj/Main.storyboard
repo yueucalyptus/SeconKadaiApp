@@ -29,7 +29,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vh-sS-Kry"/>
                                     <segue destination="sge-lJ-2bK" kind="show" id="EKz-rk-Wm3"/>
                                 </connections>
                             </button>
@@ -47,6 +46,7 @@
                             <constraint firstItem="bvj-qy-JUL" firstAttribute="centerX" secondItem="g8l-Ye-67c" secondAttribute="centerX" id="WIz-WD-dg7"/>
                             <constraint firstItem="g8l-Ye-67c" firstAttribute="top" secondItem="bvj-qy-JUL" secondAttribute="bottom" constant="100" id="bFY-2j-LdE"/>
                             <constraint firstItem="bvj-qy-JUL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="bsc-DV-Ps4"/>
+                            <constraint firstItem="bvj-qy-JUL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kwR-52-vHP"/>
                             <constraint firstItem="bvj-qy-JUL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="368" id="n40-qf-yPF"/>
                             <constraint firstItem="g8l-Ye-67c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r7K-kV-dhn"/>
                             <constraint firstItem="g8l-Ye-67c" firstAttribute="top" secondItem="bvj-qy-JUL" secondAttribute="bottom" constant="100" id="st6-Uq-Seg"/>
@@ -56,6 +56,7 @@
                     <navigationItem key="navigationItem" id="TnZ-Om-BYD"/>
                     <connections>
                         <outlet property="button" destination="g8l-Ye-67c" id="Vlq-PB-S53"/>
+                        <outlet property="mytextField" destination="bvj-qy-JUL" id="yzn-aw-Kae"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -98,7 +99,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="TLL-Vm-D3O"/>
                     <connections>
-                        <outlet property="label" destination="hJy-In-vmj" id="dKN-VJ-lAD"/>
+                        <outlet property="label" destination="hJy-In-vmj" id="SUp-pX-Oy6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lw-0E-Sua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

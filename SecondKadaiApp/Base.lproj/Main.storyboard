@@ -29,16 +29,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="sge-lJ-2bK" kind="show" id="EKz-rk-Wm3"/>
+                                    <segue destination="sge-lJ-2bK" kind="show" id="LTr-12-fUL"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-qy-JUL">
                                 <rect key="frame" x="159" y="368" width="96" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="mytextField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="3Nc-2V-HgC"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,6 +83,7 @@
                                 <rect key="frame" x="191.5" y="201" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
+                                    <action selector="unwind:" destination="sge-lJ-2bK" eventType="touchUpInside" id="c0X-gb-c97"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="mXm-wY-5q2"/>
                                 </connections>
                             </button>

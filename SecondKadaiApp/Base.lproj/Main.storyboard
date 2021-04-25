@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SecondKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wa-UA-G0C">
-                                <rect key="frame" x="89.5" y="100" width="235" height="25.5"/>
+                                <rect key="frame" x="89.5" y="144" width="235" height="25.5"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -29,7 +29,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="sge-lJ-2bK" kind="show" id="LTr-12-fUL"/>
+                                    <segue destination="sge-lJ-2bK" kind="show" id="8vx-6R-4Un"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-qy-JUL">
@@ -84,7 +84,7 @@
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="unwind:" destination="sge-lJ-2bK" eventType="touchUpInside" id="c0X-gb-c97"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="mXm-wY-5q2"/>
+                                    <segue destination="6jq-5Q-zwT" kind="unwind" unwindAction="unwind:" id="OWM-q4-KHr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,6 +104,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lw-0E-Sua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="6jq-5Q-zwT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="660.86956521739137" y="216.96428571428569"/>
         </scene>
